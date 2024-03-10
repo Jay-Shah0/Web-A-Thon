@@ -1,0 +1,70 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    width: auto;
+    height: 9vh;
+    background: #000000;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.logo {
+    margin: 0% 4% 0% 4%;
+}
+
+.lists {
+    display: flex;
+}
+
+.list {
+    padding: 0% 4% 0% 4%;
+    width: 14vh;
+    margin: auto;
+}
+
+.space {
+    width: 45vw;
+}
+
+.search {
+    margin: auto;
+    padding: 0% 0% 0% 0%;
+
+}
+
+.sign_lists {
+    display: flex;
+    width: 45vh;
+}
+
+.sign_list {
+    padding: 0% 0% 0% 0%;
+    width: 14vh;
+
+    margin: auto 10% auto 4%;
+}
+
+.sign {
+    margin: auto 0% auto 0%;
+    padding: 0% 0% 0% 0%;
+
+    border-radius: 5px;
+    width: 15vh;
+    height: 5vh;
+}
+
+#sign_in {
+    background: #9D4CC2;
+}
+
+#sign_up {
+    background: #E84781;
+}
+
+.sign_text {
+    margin: auto auto auto auto;
+    padding: 0% 0% 0% 0%;
+}
