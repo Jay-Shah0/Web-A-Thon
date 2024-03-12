@@ -1,0 +1,111 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    width: auto;
+    height: 9vh;
+    background: #292929;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.logo {
+    margin: 0% 4% 0% 4%;
+}
+
+.lists {
+    display: flex;  
+    list-style-type: none;
+}
+
+.list a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.list {
+    padding: 0% 4% 0% 4%;
+    width: 17vh;
+    margin: auto;
+    color: #E84781;
+}
+
+.space {
+    width: 29vw;
+}
+
+.search {
+    margin: auto;
+    padding: 0% 0% 0% 0%;
+
+}
+
+.sign_lists {
+    display: flex;
+    width: 45vh;
+    list-style-type: none;
+}
+
+.sign_list {
+    padding: 0% 0% 0% 0%;
+    width: 14vh;
+
+    margin: auto 10% auto 4%;
+}
+
+.sign {
+    margin: auto 0% auto 0%;
+    padding: 0% 0% 0% 0%;
+    border: solid 0.1rem #9D4CC2;
+    border-radius: 1rem;
+    width: 15vh;
+    height: 5vh;
+    background-color: transparent;
+    color: white;
+}
+
+.sign:hover{
+    cursor: pointer;
+    border: none;
+    background: #9D4CC2;
+}
+
+
+.signup {
+    background: #E84781;
+    border: solid 0.1rem #E84781;
+    /* margin: auto 0% auto 0%;
+    padding: 0% 0% 0% 0%; */
+    border-radius: 1rem;
+    width: 15vh;
+    height: 5vh;
+    background-color: transparent;
+    color: white;
+}
+
+.signup:hover{
+    border: none;
+    cursor: pointer;
+    background: #E84781;
+}
+
+.sign_text {
+    margin: auto auto auto auto;
+    padding: 0% 0% 0% 0%;
+}
+
+.signup-popup {
+    width: 40wh;
+    height: 30vh;
+    position: fixed;
+    /* Ensures it stays on top */
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Center positioning */
+    border-radius: 5px; 
+    /* Optional styling */
+    transition: ;
+}
