@@ -20,3 +20,6 @@ new terminal
 
 cd tshirst-design
 
+npm run prepared 
+
+npm run serve
